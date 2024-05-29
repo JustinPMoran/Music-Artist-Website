@@ -1,0 +1,464 @@
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf), format('ttf');
+}
+
+#heading {
+  position: fixed;
+  width: 100%;
+  padding: 32px;
+}
+
+.border {
+  background: linear-gradient(90deg, gray, 90%, black);
+  height: 2px;
+  width: 80vw;
+  margin-top: 4px;
+}
+
+h1 {
+  color: rgb(215, 215, 215);
+  font-size: 4em;
+  margin: 0px;
+  font-weight: 100;
+}
+
+#progress-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress {
+  font-size: 500px;
+  color: white;
+}
+
+.bg {
+  background-color: blue;
+}
+
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf), format('ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#heading {
+  position: fixed;
+  width: 100%;
+  padding: 32px;
+}
+
+.border {
+  background: linear-gradient(90deg, gray, 90%, black);
+  height: 2px;
+  width: 80vw;
+  margin-top: 4px;
+}
+
+h1 {
+  color: rgb(215, 215, 215);
+  font-size: 4em;
+  margin: 0px;
+  font-weight: 100;
+}
+
+#progress-container {
+  position: fixed;
+  top: 0px;
+}
+
+#progress {
+  font-size: 250px;
+  color: white;
+}
+
+.altTitle {
+  font-size: 12vw;
+  color: white;
+  padding-left: 4.5vw;
+  padding-top: 1.4vw;
+  display: inline-block;
+  position: absolute;
+}
+
+.topPart {
+  z-index: 10;
+}
+
+
+@media screen and (max-width: 768px) {
+  .altTitle {
+    font-size: 100px;
+    /* Adjust this value as needed */
+  }
+
+  .px75 {
+    padding-top: 32vw !important;
+  }
+
+  .palette {
+    width: .0px !important;
+  }
+
+  .inter {
+    font-size: 3vw !important;
+  }
+
+  .boxSpecial {
+    padding-right: -10px !important;
+  }
+
+  .socialsSub {
+    visibility: hidden;
+  }
+
+  .socials {
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 40px !important;
+    transform: translate(9px, 10px) !important;
+  }
+
+  .musicH1 {
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 30px !important;
+    transform: translate(9px, 10px) !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .image-class {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: 2px solid white;
+    transform: translateY(5px);
+    background-color: white;
+  }
+
+  .image-class1 {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: 2px solid white;
+    transform: translateY(5px);
+    background-color: #439dde;
+  }
+
+  .thisWontWork {
+    padding-right: 0px;
+    display: inline-block;
+  }
+
+  .musicH2 {
+    font-size: 3vw !important;
+    padding-right: 7vh;
+    text-align: right;
+    font-weight: bold;
+  }
+}
+
+
+.fixAlt {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: 'Molend';
+  src: url('./fonts/Molend.ttf') format('truetype');
+  font-weight: bolder;
+  /* font-style: normal; */
+}
+
+.px75 {
+  padding-left: 5vw;
+  padding-top: 15vw;
+}
+
+.styled-table {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.styled-table thead tr {
+  color: white;
+  text-align: left;
+}
+
+.pt2 {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.styled-table th {
+  padding: 10px 20px 10px 20px;
+  /* Top Right Bottom Left */
+  border: 2px solid white;
+}
+
+
+.fixPalette {
+  display: flex;
+  align-items: center;
+}
+
+.boxSpecial {
+  padding-right: 10vw !important;
+}
+
+@font-face {
+  font-family: 'CAT North';
+  src: url('./fonts/cat-north.north.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CAT North Licht';
+  src: url('./fonts/cat-north.northlicht.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url('./fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BarCode39-Z7DZ';
+  src: url('./fonts/BarCode39-Z7DZ.ttf') format('truetype');
+  font-weight: normal;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1000; */
+  object-fit: cover;
+  /* ORIGINALLY 30PX BLUR */
+  filter: blur(20px); 
+}
+
+.name {
+  font-family: 'Molend';
+  font-size: 100px;
+  letter-spacing: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  /* Adjust the margin-top value as needed */
+}
+
+.CNname {
+  font-family: 'CAT North';
+  font-size: 100px;
+  letter-spacing: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  /* Adjust the margin-top value as needed */
+}
+
+#video-container {
+  position: fixed;
+  /* Change position to fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -999;
+}
+
+#scene-container {
+  position: absolute;
+  top: 100px;
+  /* Adjust the top value to align with the text */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+  /* Adjust the height based on the text's margin-top */
+  overflow: hidden;
+  background-color: transparent;
+  /* Set background to transparent */
+  /* z-index: 1; Ensure the scene is above the video */
+}
+
+.fitToTop {
+  position: sticky;
+  top: 0;
+  /* Adjust the top value to align with the text */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  /* Set background to transparent */
+}
+
+/* .zScale3{
+   z-index: 3;
+} */
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-25%, 0, 0);
+  }
+}
+
+.barcode {
+  font-family: 'BarCode39-Z7DZ', sans-serif;
+  /* Fallback to sans-serif if the font fails to load */
+}
+
+.licht {
+  font-family: 'CAT North Licht', sans-serif;
+  /* Fallback to sans-serif if the font fails to load */
+}
+
+.north {
+  font-family: 'CAT North', sans-serif;
+  /* Fallback to sans-serif if the font fails to load */
+}
+
+.molend {
+  font-family: 'Molend', sans-serif;
+  /* Fallback to sans-serif if the font fails to load */
+}
+
+.inter {
+  font-family: 'Inter Bold', sans-serif;
+  /* Fallback to sans-serif if the font fails to load */
+}
+
+.padtopbottom {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}
+
+.white {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.pt4 {
+  font-size: 40px;
+}
+
+.padDown {
+  padding-top: 50px;
+}
+
+
+.padTB {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 3vh;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, .5);
+  /* Example shadow */
+}
+
+.fixAlign {
+  justify-content: center;
+  align-items: center;
+}
+
+.padIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padBottomIcon {
+  padding-bottom: 6vw;
+}
+
+.iconSpace {
+  padding: 0px 3.25vw 4vh 3.25vw;
+    /* Top Right Bottom Left */
+}
+
+.socials {
+  font-size: 6vw;
+  padding-right: 5vw;
+  text-align: right;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+.socialsSub {
+  font-size: 3vw;
+  font-weight: bold;
+  padding-right: 5.5vw;
+  text-align: right;
+  transform: translateY(-20px);
+  margin-bottom: 20px;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+.grainBG {
+  background-image: url("../imagesVideos/bgImg.jpg");
+  opacity: 1;
+  /* Adjust opacity as needed */
+}
+
+.musicH1 {
+    font-size: 6vw;
+    padding-right: 5vw;
+    text-align: right;
+    transform: translateY(10px);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+.musicH2 {
+  font-size: 4.5vw;
+  padding-right: 7vh;
+  text-align: right;
+  font-weight: bold;
+}
+
+.liveVid:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
